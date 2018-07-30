@@ -1,0 +1,15 @@
+.wb {
+  background: url("../../source/wb/wb-bg.png") center center no-repeat;
+  background-size: cover; }
+
+.wb__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.wb__item {
+  margin-right: 20px; }
+  .wb__item:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=wb.css.map */

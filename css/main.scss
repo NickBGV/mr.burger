@@ -1,0 +1,21 @@
+/* saved colors */
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+/* layout */
+@import "layout/normalize.scss";
+@import "layout/fonts.scss";
+@import "layout/layout.scss";
+
+/* crumbs */
+@import "blocks/crumbs/btn.scss";
+@import "blocks/crumbs/section-title.scss";
+@import "blocks/crumbs/menu.scss";
+
+/* blocks */
+@import "blocks/wd.scss";
+@import "blocks/wb.scss";
+@import "blocks/reviews.scss";
+@import "blocks/order.scss";
