@@ -98,3 +98,9 @@ footer {
     }
   }
 }
+
+.section__subtitle {
+  font-size: 65px;
+  @include lifehack();
+  color: #fff;
+}
