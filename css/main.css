@@ -562,7 +562,7 @@ footer {
 
 /* blocks */
 .wd {
-  background: url("../../source/wd/wd-bg.png") center center no-repeat;
+  background: url("../source/wd/wd-bg.png") center center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -647,7 +647,7 @@ footer {
   width: 50%; }
 
 .wb {
-  background: url("../../source/wb/wb-bg.png") center center no-repeat;
+  background: url("../source/wb/wb-bg.png") center center no-repeat;
   background-size: cover; }
 
 .wb__list {
@@ -713,7 +713,7 @@ footer {
   transition: opacity .3s; }
 
 .order {
-  background: url("../../source/order/order-bg.png") center center no-repeat;
+  background: url("../source/order/order-bg.png") center center no-repeat;
   background-size: cover; }
 
 .form__title {
