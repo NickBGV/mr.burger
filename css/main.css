@@ -513,6 +513,11 @@ footer {
   .section-title_position_center {
     text-align: center; }
 
+.section__subtitle {
+  font-size: 65px;
+  font-family: 'Lifehack-Medium';
+  color: #fff; }
+
 /* crumbs */
 .btn {
   padding: 9px 16px;
@@ -521,19 +526,6 @@ footer {
   text-decoration: none;
   border-radius: 5px;
   display: inline-block; }
-
-.section-title {
-  font-family: 'Gagalin-Regular', Helvetica, sans-serif;
-  font-size: 72px;
-  color: #f9b43b;
-  margin-bottom: 25px; }
-  .section-title_color_black {
-    color: #2f3234; }
-
-.section__subtitle {
-  font-size: 65px;
-  font-family: 'Lifehack-Medium';
-  color: #fff; }
 
 .menu {
   position: fixed;
@@ -661,15 +653,35 @@ footer {
 .wb__list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.wb__content {
+  text-align: center; }
 
 .wb__item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 20px; }
   .wb__item:last-child {
     margin-right: 0; }
 
 .reviews__list {
-  height: 100%;
+  background: black;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
